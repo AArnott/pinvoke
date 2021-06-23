@@ -111,7 +111,7 @@ namespace PInvoke
             ///     in case, for file systems that support that naming. Use care when using this option, because files created with
             ///     this flag may not be accessible by applications that are written for MS-DOS or 16-bit Windows.
             /// </summary>
-            FILE_FLAG_POSIX_SEMANTICS = 0x0100000,
+            FILE_FLAG_POSIX_SEMANTICS = 0x01000000,
 
             /// <summary>
             ///     Access is intended to be random. The system can use this as a hint to optimize file caching. This flag has no
